@@ -54,9 +54,9 @@ The application will be available on `http://localhost:8080`.
    ```
    
 3. For static code analysis add the settings.xml file to ~/.m2, for setting the plugin prefix
-   ```xml
+  ```
   <settings>
-	<pluginGroups>
+    <pluginGroups>
     	<pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
     </pluginGroups>
 	<profiles>
