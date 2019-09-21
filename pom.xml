@@ -22,7 +22,7 @@
 	    <scope>provided</scope>
 	</dependency>
   </dependencies>
-  <distributionManagement>
+  <!--<distributionManagement>
 			<repository>
 				<id>releases</id>
 				<name>Releases</name>
@@ -34,7 +34,7 @@
 		         <name>Snapshots</name>
 	                 <url>http://34.204.72.122:8081/nexus/content/repositories/snapshots/</url>
 			</snapshotRepository>
-  </distributionManagement>	  	
+  </distributionManagement>-->	  	
   <build>
     <finalName>java-tomcat-maven-example</finalName>
     <plugins>
