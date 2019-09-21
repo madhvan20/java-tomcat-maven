@@ -23,6 +23,19 @@
 	</dependency>
   </dependencies>
   <build>
+    <distributionManagement>
+			<repository>
+				<id>releases</id>
+				<name>Releases</name>
+				<url>http://34.204.72.122:8081/nexus/content/repositories/releases/</url>
+			</repository>
+                       
+			<snapshotRepository>
+				<id>snapshots</id>
+		         <name>Snapshots</name>
+	                 <url>http://34.204.72.122:8081/nexus/content/repositories/snapshots/</url>
+			</snapshotRepository>
+    </distributionManagement>	  
     <finalName>java-tomcat-maven-example</finalName>
     <plugins>
       <plugin>
