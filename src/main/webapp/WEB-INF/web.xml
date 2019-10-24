@@ -10,7 +10,7 @@
   	<init-param>
   		<param-name>greeting</param-name>
   		<!-- change the value of message here -->
-  		<param-value>Welcome to SNET</param-value>
+  		<param-value>Welcome to SNET Team</param-value>
   	</init-param>  	
   </servlet>
   <servlet-mapping>
